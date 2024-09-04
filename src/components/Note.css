@@ -1,0 +1,56 @@
+.note {
+    width: 200px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fffae6;
+    border: 1px solid #ffd700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -ms-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    cursor: grab;
+    position: absolute;
+
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
+
+.note:hover {
+    background-color: #fff;
+}
+
+.note:active {
+    cursor: move;
+}
+
+
+
+
+.note-content {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.note-board {
+    position: relative;
+    width: 210vh;
+    height: 99vh;
+    background-color: linear-gradient(to bottom, #fff, #f0f0f0);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
